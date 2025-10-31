@@ -1,0 +1,217 @@
+PS C:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ> python -m pip install -r "c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt"
+Collecting aiogram==2.25.1 (from -r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 1))
+  Using cached aiogram-2.25.1-py3-none-any.whl.metadata (3.9 kB)
+Requirement already satisfied: google-generativeai in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from -r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (0.8.5)
+Requirement already satisfied: python-dotenv in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from -r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 3)) (1.2.1)
+Requirement already satisfied: pytest in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from -r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 4)) (8.4.2)
+Requirement already satisfied: pytest-asyncio in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from -r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 5)) (1.2.0)
+Collecting aiohttp<3.9.0,>=3.8.0 (from aiogram==2.25.1->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 1))
+  Using cached aiohttp-3.8.6.tar.gz (7.4 MB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting Babel<2.10.0,>=2.9.1 (from aiogram==2.25.1->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 1))
+  Using cached Babel-2.9.1-py2.py3-none-any.whl.metadata (1.2 kB)
+Requirement already satisfied: certifi>=2021.10.8 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from aiogram==2.25.1->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 1)) (2025.10.5)
+Collecting magic-filter>=1.0.9 (from aiogram==2.25.1->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 1))
+  Using cached magic_filter-1.0.12-py3-none-any.whl.metadata (1.5 kB)
+Requirement already satisfied: attrs>=17.3.0 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 1)) (25.4.0)
+Requirement already satisfied: charset-normalizer<4.0,>=2.0 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 1)) (3.4.4)
+Requirement already satisfied: multidict<7.0,>=4.5 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 1)) (6.7.0)
+Collecting async_timeout<5.0,>=4.0.0a3 (from aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 1))
+  Using cached async_timeout-4.0.3-py3-none-any.whl.metadata (4.2 kB)
+Requirement already satisfied: yarl<2.0,>=1.0 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 1)) (1.22.0)
+Requirement already satisfied: frozenlist>=1.1.1 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 1)) (1.8.0)
+Requirement already satisfied: aiosignal>=1.1.2 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 1)) (1.4.0)
+Collecting pytz>=2015.7 (from Babel<2.10.0,>=2.9.1->aiogram==2.25.1->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 1))
+  Using cached pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Requirement already satisfied: idna>=2.0 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from yarl<2.0,>=1.0->aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 1)) (3.11)
+Requirement already satisfied: propcache>=0.2.1 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from yarl<2.0,>=1.0->aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 1)) (0.4.1)
+Requirement already satisfied: google-ai-generativelanguage==0.6.15 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (0.6.15)
+Requirement already satisfied: google-api-core in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (2.25.2) 
+Requirement already satisfied: google-api-python-client in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (2.185.0)
+Requirement already satisfied: google-auth>=2.15.0 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (2.41.1)
+Requirement already satisfied: protobuf in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (5.29.5)        
+Requirement already satisfied: pydantic in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (2.12.3)        
+Requirement already satisfied: tqdm in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (4.67.1)
+Requirement already satisfied: typing-extensions in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (4.15.0)
+Requirement already satisfied: proto-plus<2.0.0dev,>=1.22.3 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-ai-generativelanguage==0.6.15->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (1.26.1)
+Requirement already satisfied: googleapis-common-protos<2.0.0,>=1.56.2 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-api-core->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (1.71.0)
+Requirement already satisfied: requests<3.0.0,>=2.18.0 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-api-core->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (2.32.5)
+Requirement already satisfied: grpcio<2.0.0,>=1.33.2 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.1->google-ai-generativelanguage==0.6.15->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (1.76.0)
+Requirement already satisfied: grpcio-status<2.0.0,>=1.33.2 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.1->google-ai-generativelanguage==0.6.15->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (1.71.2)
+Requirement already satisfied: cachetools<7.0,>=2.0.0 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-auth>=2.15.0->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (6.2.1)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-auth>=2.15.0->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (0.4.2)
+Requirement already satisfied: rsa<5,>=3.1.4 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-auth>=2.15.0->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (4.9.1)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from requests<3.0.0,>=2.18.0->google-api-core->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (2.5.0)
+Requirement already satisfied: pyasn1>=0.1.3 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from rsa<5,>=3.1.4->google-auth>=2.15.0->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (0.6.1)
+Requirement already satisfied: colorama>=0.4 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from pytest->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 4)) (0.4.6)
+Requirement already satisfied: iniconfig>=1 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from pytest->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 4)) (2.3.0)
+Requirement already satisfied: packaging>=20 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from pytest->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 4)) (25.0)
+Requirement already satisfied: pluggy<2,>=1.5 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from pytest->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 4)) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from pytest->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 4)) (2.19.2)
+Requirement already satisfied: httplib2<1.0.0,>=0.19.0 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-api-python-client->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (0.31.0)
+Requirement already satisfied: google-auth-httplib2<1.0.0,>=0.2.0 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-api-python-client->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (0.2.0)
+Requirement already satisfied: uritemplate<5,>=3.0.1 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from google-api-python-client->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (4.2.0)
+Requirement already satisfied: pyparsing<4,>=3.0.4 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from httplib2<1.0.0,>=0.19.0->google-api-python-client->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (3.2.5)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from pydantic->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (0.7.0)
+Requirement already satisfied: pydantic-core==2.41.4 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from pydantic->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (2.41.4)
+Requirement already satisfied: typing-inspection>=0.4.2 in c:\users\user\appdata\local\programs\python\python314\lib\site-packages (from pydantic->google-generativeai->-r c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\requirements.txt (line 2)) (0.4.2)
+Using cached aiogram-2.25.1-py3-none-any.whl (203 kB)
+Using cached async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+Using cached Babel-2.9.1-py2.py3-none-any.whl (8.8 MB)
+Using cached magic_filter-1.0.12-py3-none-any.whl (11 kB)
+Using cached pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Building wheels for collected packages: aiohttp
+  Building wheel for aiohttp (pyproject.toml) ... error
+  error: subprocess-exited-with-error
+
+  × Building wheel for aiohttp (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [105 lines of output]
+      *********************
+      * Accelerated build *
+      *********************
+      C:\Users\user\AppData\Local\Temp\pip-build-env-cc4w4vtl\overlay\Lib\site-packages\setuptools\dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+      !!
+
+              ********************************************************************************
+              Please consider removing the following classifiers in favor of a SPDX license expression:
+
+              License :: OSI Approved :: Apache Software License
+
+              See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+              ********************************************************************************
+
+      !!
+        self._finalize_license_expression()
+      running bdist_wheel
+      running build
+      running build_py
+      creating build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\abc.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\base_protocol.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\client.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\client_exceptions.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\client_proto.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\client_reqrep.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\client_ws.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\connector.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\cookiejar.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\formdata.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\hdrs.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\helpers.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\http.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\http_exceptions.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\http_parser.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\http_websocket.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\http_writer.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\locks.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\log.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\multipart.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\payload.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\payload_streamer.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\pytest_plugin.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\resolver.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\streams.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\tcp_helpers.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\test_utils.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\tracing.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\typedefs.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\web.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\web_app.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\web_exceptions.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\web_fileresponse.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\web_log.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\web_middlewares.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\web_protocol.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\web_request.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\web_response.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\web_routedef.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\web_runner.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\web_server.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\web_urldispatcher.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\web_ws.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\worker.py -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\__init__.py -> build\lib.win-amd64-cpython-314\aiohttp
+      running egg_info
+      writing aiohttp.egg-info\PKG-INFO
+      writing dependency_links to aiohttp.egg-info\dependency_links.txt
+      writing requirements to aiohttp.egg-info\requires.txt
+      writing top-level names to aiohttp.egg-info\top_level.txt
+      reading manifest file 'aiohttp.egg-info\SOURCES.txt'
+      reading manifest template 'MANIFEST.in'
+      warning: no files found matching 'aiohttp' anywhere in distribution
+      warning: no previously-included files matching '*.pyc' found anywhere in distribution
+      warning: no previously-included files matching '*.pyd' found anywhere in distribution
+      warning: no previously-included files matching '*.so' found anywhere in distribution
+      warning: no previously-included files matching '*.lib' found anywhere in distribution
+      warning: no previously-included files matching '*.dll' found anywhere in distribution
+      warning: no previously-included files matching '*.a' found anywhere in distribution
+      warning: no previously-included files matching '*.obj' found anywhere in distribution
+      warning: no previously-included files found matching 'aiohttp\*.html'
+      no previously-included directories found matching 'docs\_build'
+      adding license file 'LICENSE.txt'
+      writing manifest file 'aiohttp.egg-info\SOURCES.txt'
+      copying aiohttp\_cparser.pxd -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\_find_header.pxd -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\_headers.pxi -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\_helpers.pyi -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\_helpers.pyx -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\_http_parser.pyx -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\_http_writer.pyx -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\_websocket.pyx -> build\lib.win-amd64-cpython-314\aiohttp
+      copying aiohttp\py.typed -> build\lib.win-amd64-cpython-314\aiohttp
+      creating build\lib.win-amd64-cpython-314\aiohttp\.hash
+      copying aiohttp\.hash\_cparser.pxd.hash -> build\lib.win-amd64-cpython-314\aiohttp\.hash
+      copying aiohttp\.hash\_find_header.pxd.hash -> build\lib.win-amd64-cpython-314\aiohttp\.hash
+      copying aiohttp\.hash\_helpers.pyi.hash -> build\lib.win-amd64-cpython-314\aiohttp\.hash
+      copying aiohttp\.hash\_helpers.pyx.hash -> build\lib.win-amd64-cpython-314\aiohttp\.hash
+      copying aiohttp\.hash\_http_parser.pyx.hash -> build\lib.win-amd64-cpython-314\aiohttp\.hash
+      copying aiohttp\.hash\_http_writer.pyx.hash -> build\lib.win-amd64-cpython-314\aiohttp\.hash
+      copying aiohttp\.hash\_websocket.pyx.hash -> build\lib.win-amd64-cpython-314\aiohttp\.hash
+      copying aiohttp\.hash\hdrs.py.hash -> build\lib.win-amd64-cpython-314\aiohttp\.hash
+      running build_ext
+      building 'aiohttp._websocket' extension
+      error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for aiohttp
+Failed to build aiohttp
+error: failed-wheel-build-for-install
+
+× Failed to build installable wheels for some pyproject.toml based projects
+╰─> aiohttp
+PS C:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ> python -c "import aiogram; print(aiogram.__version__)"         
+2.15
+PS C:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ> python "c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\tg-bot ai gemimi.py"
+2025-10-26 21:26:00,263 INFO: Checking .env at: c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\.env
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\tg-bot ai gemimi.py", line 98, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ\tg-bot ai gemimi.py", line 94, in main
+    executor.start_polling(dp, skip_updates=True)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiogram\utils\executor.py", line 45, in start_polling
+    executor.start_polling(
+    ~~~~~~~~~~~~~~~~~~~~~~^
+        reset_webhook=reset_webhook,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        allowed_updates=allowed_updates
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiogram\utils\executor.py", line 317, in start_polling
+    loop: asyncio.AbstractEventLoop = self.loop
+                                      ^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiogram\utils\executor.py", line 160, in loop
+    return getattr(self, "_loop", asyncio.get_event_loop())
+                                  ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 715, in get_event_loop        
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'MainThread'.
+PS C:\Users\user\Documents\_VSCode_Python\3. ТГ-бот с ИИ> 

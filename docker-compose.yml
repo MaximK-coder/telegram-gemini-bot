@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: gemini_bot
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      # Подключаем логи из контейнера в хост-систему
+      - ./logs:/app/logs
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    # Добавляем healthcheck для мониторинга
+    healthcheck:
+      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:8080')"]
+      interval: 1m
+      timeout: 10s
+      retries: 3
